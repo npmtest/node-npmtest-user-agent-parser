@@ -1,6 +1,6 @@
 # npmtest-user-agent-parser
 
-#### test coverage for  [user-agent-parser (v0.6.0)](http://github.com/faisalman/ua-parser-js)  [![npm package](https://img.shields.io/npm/v/npmtest-user-agent-parser.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-user-agent-parser) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-user-agent-parser.svg)](https://travis-ci.org/npmtest/node-npmtest-user-agent-parser)
+#### basic test coverage for  [user-agent-parser (v0.6.0)](http://github.com/faisalman/ua-parser-js)  [![npm package](https://img.shields.io/npm/v/npmtest-user-agent-parser.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-user-agent-parser) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-user-agent-parser.svg)](https://travis-ci.org/npmtest/node-npmtest-user-agent-parser)
 
 #### Lightweight JavaScript-based user-agent string parser
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-user-agent-parser/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-user-agent-parser/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-user-agent-parser/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-user-agent-parser/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-user-agent-parser/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-user-agent-parser/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-user-agent-parser/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-user-agent-parser/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-user-agent-parser/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-user-agent-parser/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-user-agent-parser/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-user-agent-parser/build/coverage.html/index.html)
 
@@ -125,7 +125,8 @@
         "test": "./build/build.sh"
     },
     "title": "UAParser.js",
-    "version": "0.6.0"
+    "version": "0.6.0",
+    "bin": {}
 }
 ```
 
